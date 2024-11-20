@@ -40,39 +40,39 @@ export default function Header() {
         <div
           className={`${
             isOpen ? "block" : "hidden"
-          } md:flex flex-col md:flex-row md:gap-8`}
+          } md:flex flex-col md:flex-row md:items-center md:gap-8 absolute md:static top-[70px] left-0 w-full bg-white md:w-auto shadow-md md:shadow-none`}
         >
           <Link
             to="/"
-            className="mx-4 my-2 md:my-0 font-semibold hover:text-red-600"
+            className="block text-center py-2 md:py-0 font-semibold hover:text-red-600"
             onClick={() => setIsOpen(false)}
           >
             Home
           </Link>
           <Link
             to="/about"
-            className="mx-4 my-2 md:my-0 font-semibold hover:text-red-600"
+            className="block text-center py-2 md:py-0 font-semibold hover:text-red-600"
             onClick={() => setIsOpen(false)}
           >
             About
           </Link>
           <Link
             to="/projects"
-            className="mx-4 my-2 md:my-0 font-semibold hover:text-red-600"
+            className="block text-center py-2 md:py-0 font-semibold hover:text-red-600"
             onClick={() => setIsOpen(false)}
           >
             Projects
           </Link>
           <Link
             to="/skills"
-            className="mx-4 my-2 md:my-0 font-semibold hover:text-red-600"
+            className="block text-center py-2 md:py-0 font-semibold hover:text-red-600"
             onClick={() => setIsOpen(false)}
           >
             Skills
           </Link>
           <Link
             to="/contact"
-            className="mx-4 my-2 md:my-0 font-semibold hover:text-red-600"
+            className="block text-center py-2 md:py-0 font-semibold hover:text-red-600"
             onClick={() => setIsOpen(false)}
           >
             Contact
