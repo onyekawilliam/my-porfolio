@@ -3,9 +3,10 @@ import React from "react";
 export default function Featuredsection() {
   return (
     <div>
-      <h1 className="mx-44 py-6">Featured Works</h1>
-      {/*per work container */}
-      <div className="flex mx-44">
+      <h1 className="text-center md:mx-44 py-6">Featured Works</h1>
+
+      {/* Per work container */}
+      <div className="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-8 mx-6 md:mx-44 my-6">
         <div>
           <img
             src="/public/images/Rectangle 30.jpg"
@@ -14,12 +15,14 @@ export default function Featuredsection() {
           />
         </div>
         <div>
-          <h1 className="font-bold text-[20px] px-6">Designing Dashboards</h1>
-          <button className="bg-blue-950 rounded-lg mx-6 my-4 text-white font-bold px-1">
+          <h1 className="font-bold text-[20px] px-0 md:px-6">
+            Designing Dashboards
+          </h1>
+          <button className="bg-blue-950 rounded-lg px-2 py-1 text-white font-bold mx-0 md:mx-6 my-4">
             2020
           </button>
-          <span className="my-0 text-gray-400">Dashboard</span>
-          <p className="mx-6 py-2">
+          <span className="block md:inline text-gray-400">Dashboard</span>
+          <p className="px-0 md:px-6 py-2 text-center md:text-left">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
             officia unde beatae quae, facere consequuntur vel, a vitae corporis
             provident esse accusantium! Modi harum laudantium in perspiciatis
@@ -27,9 +30,10 @@ export default function Featuredsection() {
           </p>
         </div>
       </div>
-      <hr className=" my-4 border-t border-gray-300 mx-44" />
-      {/*per work container */}
-      <div className="flex mx-44 my-6">
+      <hr className="my-4 border-t border-gray-300 mx-6 md:mx-44" />
+
+      {/* Per work container */}
+      <div className="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-8 mx-6 md:mx-44 my-6">
         <div>
           <img
             src="/public/images/Rectangle 32.jpg"
@@ -38,14 +42,14 @@ export default function Featuredsection() {
           />
         </div>
         <div>
-          <h1 className="font-bold text-[20px] px-6">
+          <h1 className="font-bold text-[20px] px-0 md:px-6">
             Vibrant Portraits of 2020
           </h1>
-          <button className="bg-blue-950 rounded-lg mx-6 my-4 text-white font-bold px-1">
+          <button className="bg-blue-950 rounded-lg px-2 py-1 text-white font-bold mx-0 md:mx-6 my-4">
             2018
           </button>
-          <span className="my-0 text-gray-400">Illustration</span>
-          <p className="mx-6 py-2">
+          <span className="block md:inline text-gray-400">Illustration</span>
+          <p className="px-0 md:px-6 py-2 text-center md:text-left">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
             officia unde beatae quae, facere consequuntur vel, a vitae corporis
             provident esse accusantium! Modi harum laudantium in perspiciatis
@@ -53,9 +57,10 @@ export default function Featuredsection() {
           </p>
         </div>
       </div>
-      <hr className=" my-4 border-t border-gray-300 mx-44" />
-      {/*per work container */}
-      <div className="flex mx-44 my-6">
+      <hr className="my-4 border-t border-gray-300 mx-6 md:mx-44" />
+
+      {/* Per work container */}
+      <div className="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-8 mx-6 md:mx-44 my-6">
         <div>
           <img
             src="/public/images/Rectangle 34.jpg"
@@ -64,14 +69,14 @@ export default function Featuredsection() {
           />
         </div>
         <div>
-          <h1 className="font-bold text-[20px] px-6">
+          <h1 className="font-bold text-[20px] px-0 md:px-6">
             36 Days of Malayalam type
           </h1>
-          <button className="bg-blue-950 rounded-lg mx-6 my-4 text-white font-bold px-1">
+          <button className="bg-blue-950 rounded-lg px-2 py-1 text-white font-bold mx-0 md:mx-6 my-4">
             2018
           </button>
-          <span className="my-0 text-gray-400">Illustration</span>
-          <p className="mx-6 py-2">
+          <span className="block md:inline text-gray-400">Illustration</span>
+          <p className="px-0 md:px-6 py-2 text-center md:text-left">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
             officia unde beatae quae, facere consequuntur vel, a vitae corporis
             provident esse accusantium! Modi harum laudantium in perspiciatis
@@ -79,7 +84,7 @@ export default function Featuredsection() {
           </p>
         </div>
       </div>
-      <hr className=" my-4 border-t border-gray-300 mx-44" />
+      <hr className="my-4 border-t border-gray-300 mx-6 md:mx-44" />
     </div>
   );
 }

@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Herosection() {
   return (
-    <div className="flex justify-center gap-10 mt-20">
-      <div>
+    <div className="flex flex-col md:flex-row justify-center items-center md:gap-10 gap-6 mt-20">
+      <div className="text-center md:text-left">
         <h1 className="text-[38px] font-bold">
           Hi, I am William,
           <br /> Frontend Developer
@@ -15,7 +15,6 @@ export default function Herosection() {
           ipsum dolor sit amet <br />
           consectetur adipisicing elit.
         </p>
-
         <button className="bg-red-500 p-2 mt-6 text-sm text-white hover:bg-red-600">
           Download Resume
         </button>
