@@ -23,7 +23,7 @@ export default function Herosection() {
         <img
           src="/public/images/og.png"
           alt="my photo"
-          className="w-60 h-60 rounded-full"
+          className="w-40 h-40 sm:w-60 sm:h-60 rounded-full object-cover"
         />
       </div>
     </div>
